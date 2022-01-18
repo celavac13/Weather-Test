@@ -1,0 +1,33 @@
+#holder {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#convert-temp {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #22A7F0;
+    border-radius: 7px;
+    font-size: 1.2em;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    width: 120px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 1px;
+    padding-bottom: 20px;
+}
+
+.list-items p {
+    font-size: 1.2em;
+}
+
+.weather-image {
+    height: 75px;
+    width: 75px;
+}
